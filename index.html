@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Justin Jia's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+              <ul class="menu">
+                <li>
+                  <a href="#" onclick="showSection('profile')">Home</a>
+                </li>
+                <!--Sections dropdown -->
+                <li class="submenu">
+                  <a href="#">Portfolio</a>
+                  <ul class="dropdown">
+                    <li><a href="#" onclick="showSection('research')">Research</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="showSection('publications')">Publications</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                    <li><a href="#" onclick="showSection('teaching')">Teaching</a></li>
+                    <li><a href="#" onclick="showSection('awards')">Awards</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>          
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="left-section">
+                <div class="profile-pic">
+                    <img src="profile/6.svg" alt="User" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                </div>
+                <div class="contacts">
+                    <a href="http://linkedin.com/in/justin-jia-3bb28b241" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="mailto:mufan1105@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                    <a href="tel:+61493301201" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>Justin Jia</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    Motivated and detail-oriented business analyst with experience in business and system analysis. Proven ability to collect, analyse, and convert business requirements into actionable stories, facilitating the delivery of effective software solutions. Seeking an opportunity as a business analyst to leverage my passion and expertise in dynamic organisations.
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2025</div>
+                        <div class="timeline-content">
+                            <h3>Master of Business Information Systems</h3>
+                            <span class="school">Torrens University Australia</span>
+                            <p class="field">Business Information Systems</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sep 2023</div>
+                        <div class="timeline-content">
+                            <h3>Master of Commerce</h3>
+                            <span class="school">University of New South Wales</span>
+                            <p class="field">Financial Technology & Business Analytics</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2021</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Economics</h3>
+                            <span class="school">Beijing Normal University, Zhuhai</span>
+                            <p class="field">Finance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container" id="experience-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2024 – Jun 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Business Analyst Intern</h3>
+                            <span class="institution">Doing Good Rewards</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Conducted requirement analysis for invoice management and proposed system design documents for a streamlined process.</li>
+                                    <li>Demonstrated understanding of the Software Development Life Cycle (SDLC), involved in development from requirement gathering to delivery and production support.</li>
+                                    <li>Revealed pixel-perfect attitude in UI/UX design, creating a web application wireframe adhering to the company’s design guidelines.</li>
+                                    <li>Implemented data visualization dashboard with Power BI, complementing the business insight reports to senior leadership team.</li>
+                                    <li>Leveraged the invoice management process, working with a cross-functional team to uplift 30 functional requirements, resulting in a 20% improvement in system efficiency.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">Requirement analysis</span>
+                                <span class="technique-tag">UI/UX design</span>
+                                <span class="technique-tag">Data visualization</span>
+                                <span class="technique-tag">SDLC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Sales Ambassador</h3>
+                            <span class="institution">FRED Sydney</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Provided personalized customer service in a luxury jewellery boutique, assisting clients with product selection and purchase to meet their specific needs and preferences.</li>
+                                    <li>Managed client relationships through effective communication and a commitment to exceptional service, building long-term relationship with returned clients.</li>
+                                    <li>Conducted requirement analysis for customer service improvements and proposed system solutions to streamline processes.</li>
+                                    <li>Utilized customer feedback and sales data to implement new strategies, resulting in a 10% increase in customer satisfaction.</li>
+                                    <li>Exhibited problem-solving skills by troubleshooting and resolving technical issues in-store to ensure smooth operations.</li>
+                                </ul>
+                            </div>
+                            <div class="techniques">
+                                <span class="technique-tag">Customer service</span>
+                                <span class="technique-tag">Requirement analysis</span>
+                                <span class="technique-tag">Problem-solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="carousel-wrapper">
+                <div class="projects-container" id="projects-container">
+                    <div class="project-card">
+                        <h3 class="project-title">Database Developer - Clinic Management System</h3>
+                        <span class="project-duration">Jan 2024 – Apr 2024</span>
+                        <p class="project-description">Designed and implemented a relational database for a clinic management system using MySQL. Created an Entity-Relationship (ER) model to define the data structure and relationship, including Patient, Doctor, Appointment, and Prescription entities. Developed complex SQL queries to extract meaningful insights, support data management, and generate reports for smooth daily operations. Streamlined the patient management system using MySQL and Excel, reducing scheduling conflicts by 15%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Reduced scheduling conflicts by 15%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Python Developer - Restaurant Order Management System</h3>
+                        <span class="project-duration">Mar 2024 – May 2024</span>
+                        <p class="project-description">Developed an object-oriented Python application for restaurant order management. Demonstrated experience in optimising codebase using Singleton & Factory, uplifting the order processing time by 20%. Created the mockup for dine-in, pickup, and delivery orders, including menu selection and payment processing. Provided business intelligence reports on all transactions, enhancing business insights and supporting decision-making.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Singleton & Factory patterns</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Uplifted order processing time by 20%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Navigation Controls -->
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Object-oriented programming (OOP) using Python</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MySQL for database management</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Power BI for data visualization and analysis</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-file"></i>
+                    <span>Microsoft Office Suite (Word, Excel, PowerPoint)</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Project section
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
